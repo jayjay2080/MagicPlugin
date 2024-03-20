@@ -7,7 +7,7 @@ public final class MagicPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        this.getCommand("pig").setExecutor(new Command());
     }
 
     @Override

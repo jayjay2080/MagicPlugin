@@ -2,3 +2,7 @@ name: MagicPlugin
 version: '${version}'
 main: org.lemonkingdommods.magicplugin.MagicPlugin
 api-version: '1.20'
+commands:
+  pig:
+    description: "pig"
+    usage: /pig
